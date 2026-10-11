@@ -1,8 +1,8 @@
 import cv2
 import mediapipe as mp
 
-mp_drawing = mp.solutions.drawing_utils
-mp_hands = mp.solutions.hands
+mp_drawing = mp.solutions.drawing_utils  # type: ignore
+mp_hands = mp.solutions.hands # type: ignore
 
 cap = cv2.VideoCapture(0)
 
